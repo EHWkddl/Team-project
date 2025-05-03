@@ -1,4 +1,4 @@
-/* 기본 스타일 초기화 */
+/* 기본 초기화 */
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +52,7 @@ body {
   color: #2575fc;
 }
 
-/* 햄버거 메뉴 (반응형) */
+/* 햄버거 메뉴 */
 .menu-toggle {
   display: none;
   font-size: 2rem;
@@ -61,21 +61,21 @@ body {
 
 /* 메인 콘텐츠 */
 .layout {
-  margin-top: 100px; /* 네비바 피해서 여백 */
+  margin-top: 100px; 
   flex: 1;
   padding: 20px;
 }
 
-/* 팀원 소개 박스 스타일 */
+/* 팀원 소개 박스 */
 .team-section {
-  margin-top: 120px; /* 네비게이션 바와 겹치지 않도록 여백 */
+  margin-top: 120px; 
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 
 #contents {
-  max-width: 1000px; /* 넓이를 제한하여 중앙 정렬 */
+  max-width: 1000px; 
   width: 100%;
   padding: 30px;
   background-color: #fff;
@@ -106,7 +106,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* 버튼 스타일 */
 .btn {
   display: inline-block;
   background-color: #101f37;
